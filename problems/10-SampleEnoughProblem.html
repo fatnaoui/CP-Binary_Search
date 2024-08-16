@@ -1,0 +1,12 @@
+Problem Name: Simple Enough     <br>
+Problem Constraints: 0 ≤ n < 10^12,    <br>
+0 ≤ r - l ≤ 10^6,     <br>
+1 ≤ l ≤ r     <br>
+Problem Description:    <br>
+For a given number n, form a list and insert the following pattern into the list at the same position sequentially. <br />
+{floor(n/2) , n%2 , floor(n/2) } <br />
+Until every element in the list is either 1 or 0.    <br>
+Now, calculate number of 1s in from l to r (1-indexed).    <br>
+<BR /> <BR />
+<b> EXPLAINATION: </b> Start from n. Then make a list with the following elements.i.e. {floor(n/2) , n%2 , floor(n/2) }. Now this list has three elements. Now further break down each of those 3 elements considering the new n to be floor(n/2) , n%2 and  floor(n/2) respectively for those three elements respectively <b>INPLACE</b>. And this process will go on until the n reduces down to 1 or 0. So it will basically form a tree with 3 branches coming out of every node at every level starting from 1 node (n) at the root.
+<br/> 
