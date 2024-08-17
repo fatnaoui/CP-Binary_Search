@@ -1,0 +1,12 @@
+Problem Name: QUICKSORT
+Problem Constraints: 1<=N<=2*10^5 <br>
+|Ai|<=10^9
+Problem Description:
+Given an array *A*, of *N* elements. Sort the array using quicksort algorithm.(**Note :** Use randomized quicksort, otherwise worst case will not pass).
+
+Input Format: A single integer, *N*, denoting the number of elements in array. Next line contains *N* integers, denoting the elements of array.
+Sample Input: 5
+3 6 4 1 2
+
+Output Format: Print in a single line, *N* spaced integers, denoting the elements of array *A* in sorted order.
+Sample Output: 1 2 3 4 6 
