@@ -1,0 +1,14 @@
+Problem Name: Order a burger
+Problem Difficulty: None
+Problem Constraints: P <= 1000 <br>
+L <= 50 <br>
+1 <= R <= 8
+Problem Description:
+You went to the success party of your first ever online boot-camp at AIAC. You ordered <b>P</b> number of Burgers. The stall has <b>L</b> cooks and each cook has a rank <b>R</b>. A cook with a rank <b>R</b> can cook 1 burger in the first R minutes 1 more burger in the next 2R minutes, 1 more burger in 3R minutes and so on(he can only cook a complete parantha) ( For example if a cook is ranked 2.. he will cook one burger in 2 minutes one more burger in the next 4 mins and one more in the next 6 minutes hence in total 12 minutes he cooks 3 burgers. In 13 minutes also he can cook only 3 burgers as he does not have enough time for the 4th burger). Calculate the minimum time needed to cook all the burgers.
+
+Input Format: First line contains P, the number of burger ordered. In the next line the first integer denotes the number of cooks L and L integers follow in the Next line each denoting the rank of a cook.
+Sample Input: 10
+4 
+1 2 3 4
+Output Format: Print an integer which tells the number of minutes needed to get the order done.
+Sample Output: 12
